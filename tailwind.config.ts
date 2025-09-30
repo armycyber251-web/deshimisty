@@ -13,12 +13,20 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'bengali': ['Hind Siliguri', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        golden: "hsl(var(--golden))",
+        "golden-dark": "hsl(var(--golden-dark))",
+        brown: "hsl(var(--brown))",
+        cream: "hsl(var(--cream))",
+        "warm-bg": "hsl(var(--warm-bg))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
